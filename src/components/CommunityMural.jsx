@@ -4,51 +4,67 @@ import ImagePreview from './ImagePreview';
 const mockArtworks = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=400&fit=crop&auto=format",
-    title: "Abstract Dreams",
+    image: "/src/assets/istockphoto-1391364518-612x612.jpg",
+    title: "Smoke Dreams",
     artist: "Sarah M.",
     frameStyle: "modern-clean",
     size: 'medium'
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400&h=300&fit=crop&auto=format",
-    title: "Nature's Flow", 
+    image: "/src/assets/images.jpeg",
+    title: "Doodle Vision", 
     artist: "Mike R.",
     frameStyle: "warm-wood",
     size: 'medium'
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1549887534-1541e9326642?w=400&h=500&fit=crop&auto=format",
-    title: "Cosmic Journey",
-    artist: "Luna P.",
+    image: "/src/assets/Logo.png",
+    title: "Township Community Logo",
+    artist: "Township Design Team",
     frameStyle: "modern-clean", 
     size: 'large'
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&auto=format",
-    title: "Meditation",
+    image: "/src/assets/fciar2zeyhe31.png",
+    title: "Cannabis Spirit",
     artist: "Zen D.",
     frameStyle: "warm-wood",
     size: 'medium'
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1578662015441-462cfbcf319e?w=400&h=400&fit=crop&auto=format",
-    title: "Peaceful Mind", 
+    image: "/src/assets/ed3679e4aa35e0b09fc81f31a60f78a4.jpg",
+    title: "Mushroom Sunshine", 
     artist: "River T.",
     frameStyle: "modern-clean",
     size: 'medium'
   },
   {
     id: 6,
-    image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=500&fit=crop&auto=format",
-    title: "City Lights",
+    image: "/src/assets/blunt-weed-cannabis-medical-marijuana-pot-stone-high-life-smoker-drug-420-mary-jane-T0B89R.jpg",
+    title: "Joint & Leaf",
     artist: "Alex K.", 
     frameStyle: "warm-wood",
     size: 'large'
+  },
+  {
+    id: 7,
+    image: "/src/assets/rasta-bart-stoner-wall-art.webp",
+    title: "Cosmic Mushroom Sage",
+    artist: "Maya S.",
+    frameStyle: "warm-wood",
+    size: 'medium'
+  },
+  {
+    id: 8,
+    image: "/src/assets/il_fullxfull.2820111067_n983.webp",
+    title: "Rasta Spirit",
+    artist: "Jasper M.",
+    frameStyle: "modern-clean",
+    size: 'medium'
   }
 ];
 

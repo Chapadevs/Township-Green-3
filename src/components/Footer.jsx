@@ -4,7 +4,16 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
-            <h3 className="text-white text-xl font-bold mb-4">Township Community</h3>
+            <div className="flex items-center gap-3 mb-4 justify-center md:justify-start">
+              <div className="h-8 w-auto">
+                <img 
+                  src="/src/assets/LOGO ARVORE APENAS.svg" 
+                  alt="Township Community Logo"
+                  className="h-full w-auto brightness-0 invert"
+                />
+              </div>
+              <h3 className="text-white text-xl font-bold">Township Community</h3>
+            </div>
             <p className="text-green-100 text-base leading-relaxed">
               A creative sanctuary for artists and free spirits in a 
               cannabis-friendly environment.
@@ -19,15 +28,15 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-green-100">
                 <span className="text-green-200">📍</span>
-                <span>123 Creative Street, Art District</span>
+                <span>15 Scott Street, Riverside, NJ, United States</span>
               </div>
               <div className="flex items-center gap-2 text-green-100">
                 <span className="text-green-200">📞</span>
-                <span>(123) 456-7890</span>
+                <span>(+1) 856-544-3065</span>
               </div>
               <div className="flex items-center gap-2 text-green-100">
                 <span className="text-green-200">✉️</span>
-                <span>hello@townshipcommunity.com</span>
+                <span>info@townshipgreen.com</span>
               </div>
             </div>
           </div>

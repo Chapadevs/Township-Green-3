@@ -149,9 +149,6 @@ button {
   transition: transform 0.3s ease;
 }
 
-.gallery-item:hover .artwork-image {
-  transform: scale(1.02);
-}
 
 /* Frame Styles */
 .frame-modern-clean {
@@ -209,22 +206,25 @@ button {
 .artwork-overlay {
   position: absolute;
   inset: 1.5rem;
-  background: linear-gradient(135deg, rgba(35, 168, 103, 0.95), rgba(45, 90, 73, 0.95));
+  background: linear-gradient(180deg, transparent 0%, transparent 40%, rgba(0, 0, 0, 0.8) 100%);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   border-radius: 8px;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
   color: white;
   text-align: center;
   padding: 1.5rem;
-  backdrop-filter: blur(10px);
 }
 
 .gallery-item:hover .artwork-overlay {
   opacity: 1;
+}
+
+.gallery-item:hover .artwork-image {
+  transform: scale(1.05);
 }
 
 .artwork-title {
@@ -242,17 +242,20 @@ button {
 
 .artwork-cta {
   padding: 0.5rem 1rem;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 9999px;
+  background: linear-gradient(135deg, rgba(35, 168, 103, 0.9), rgba(45, 90, 73, 0.9));
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
   backdrop-filter: blur(10px);
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .artwork-cta:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: scale(1.05);
+  background: linear-gradient(135deg, rgba(35, 168, 103, 1), rgba(45, 90, 73, 1));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Add Your Art Card */
@@ -349,9 +352,9 @@ button {
 
 .image-preview-container {
   position: relative;
-  max-width: 90vw;
+  max-width: 1200px;
   max-height: 90vh;
-  width: 100%;
+  width: 95vw;
   display: flex;
   flex-direction: column;
   background: white;
@@ -431,17 +434,50 @@ button {
 
 .image-preview-content {
   display: grid;
-  grid-template-columns: 1fr 300px;
-  height: 80vh;
-  min-height: 500px;
+  grid-template-columns: 2fr 1fr;
+  height: auto;
+  min-height: 600px;
+  max-height: 80vh;
+}
+
+@media (max-width: 968px) {
+  .image-preview-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: auto;
+    min-height: auto;
+    max-height: 90vh;
+  }
+  
+  .image-preview-image-container {
+    padding: 1.5rem;
+    min-height: 300px;
+  }
+  
+  .image-preview-info {
+    max-height: 50vh;
+    padding: 1.5rem;
+  }
 }
 
 @media (max-width: 768px) {
-  .image-preview-content {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
-    height: auto;
-    min-height: auto;
+  .image-preview-overlay {
+    padding: 1rem;
+  }
+  
+  .image-preview-container {
+    width: 98vw;
+    max-height: 95vh;
+  }
+  
+  .image-preview-image-container {
+    padding: 1rem;
+    min-height: 250px;
+  }
+  
+  .image-preview-info {
+    padding: 1rem;
+    gap: 1rem;
   }
 }
 
@@ -451,7 +487,8 @@ button {
   align-items: center;
   justify-content: center;
   background: #f8f9fa;
-  padding: 2rem;
+  padding: 3rem;
+  min-height: 400px;
 }
 
 .image-preview-image {
@@ -469,14 +506,11 @@ button {
   flex-direction: column;
   gap: 1.5rem;
   border-left: 1px solid #e5e7eb;
+  overflow-y: auto;
+  max-height: 80vh;
 }
 
-@media (max-width: 768px) {
-  .image-preview-info {
-    border-left: none;
-    border-top: 1px solid #e5e7eb;
-  }
-}
+/* Media queries moved above */
 
 .image-preview-header {
   border-bottom: 2px solid #f3f4f6;
@@ -555,6 +589,7 @@ button {
   flex-direction: column;
   gap: 0.75rem;
   margin-top: auto;
+  flex-shrink: 0;
 }
 
 .preview-action-btn {
