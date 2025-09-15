@@ -1,6 +1,7 @@
 import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
+import CommunityMural from './components/CommunityMural.jsx';
 import BookingSection from './components/BookingSection.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -12,6 +13,7 @@ function App() {
         <main className="flex-1">
           <Hero />
           <About />
+          <CommunityMural />
           <BookingSection />
         </main>
         <Footer />
