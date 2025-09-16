@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="flex items-center gap-3 mb-4 justify-center md:justify-start">
               <div className="h-8 w-auto">
                 <img 
-                  src="/public/assets/LOGO ARVORE APENAS.svg" 
+                  src="/assets/LOGO ARVORE APENAS.svg" 
                   alt="Township Community Logo"
                   className="h-full w-auto brightness-0 invert"
                 />

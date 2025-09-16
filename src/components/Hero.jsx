@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="flex justify-center mb-8">
             <div className="h-20 md:h-24 w-auto">
               <img 
-                src="/public/assets/LOGO ARVORE APENAS.svg" 
+                src="/assets/LOGO ARVORE APENAS.svg" 
                 alt="Township Community Logo"
                 className="h-full w-auto brightness-0 invert drop-shadow-lg"
               />

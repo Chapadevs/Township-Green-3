@@ -57,7 +57,7 @@ const About = () => {
           
           <div className="relative">
             <img 
-              src="/public/assets/music-party-gathering-stockcake.jpeg" 
+              src="/assets/music-party-gathering-stockcake.jpg" 
               alt="Modern green lounge with comfortable seating for Township Community creative sessions" 
               className="w-full h-[500px] object-cover rounded-lg shadow-lg"
             />

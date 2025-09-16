@@ -4,7 +4,7 @@ import ImagePreview from './ImagePreview';
 const mockArtworks = [
   {
     id: 1,
-    image: "/public/assets/istockphoto-1391364518-612x612.jpg",
+    image: "/assets/istockphoto-1391364518-612x612.jpg",
     title: "Smoke Dreams",
     artist: "Sarah M.",
     frameStyle: "modern-clean",
@@ -12,7 +12,7 @@ const mockArtworks = [
   },
   {
     id: 2,
-    image: "/public/assets/images.jpeg",
+    image: "/assets/images.jpeg",
     title: "Doodle Vision", 
     artist: "Mike R.",
     frameStyle: "warm-wood",
@@ -20,7 +20,7 @@ const mockArtworks = [
   },
   {
     id: 3,
-    image: "/public/assets/Logo.png",
+    image: "/assets/Logo.png",
     title: "Township Community Logo",
     artist: "Township Design Team",
     frameStyle: "modern-clean", 
@@ -28,7 +28,7 @@ const mockArtworks = [
   },
   {
     id: 4,
-    image: "/public/assets/fciar2zeyhe31.png",
+    image: "/assets/fciar2zeyhe31.png",
     title: "Cannabis Spirit",
     artist: "Zen D.",
     frameStyle: "warm-wood",
@@ -36,7 +36,7 @@ const mockArtworks = [
   },
   {
     id: 5,
-    image: "/public/assets/ed3679e4aa35e0b09fc81f31a60f78a4.jpg",
+    image: "/assets/ed3679e4aa35e0b09fc81f31a60f78a4.jpg",
     title: "Mushroom Sunshine", 
     artist: "River T.",
     frameStyle: "modern-clean",
@@ -44,7 +44,7 @@ const mockArtworks = [
   },
   {
     id: 6,
-    image: "/public/assets/blunt-weed-cannabis-medical-marijuana-pot-stone-high-life-smoker-drug-420-mary-jane-T0B89R.jpg",
+    image: "/assets/blunt-weed-cannabis-medical-marijuana-pot-stone-high-life-smoker-drug-420-mary-jane-T0B89R.jpg",
     title: "Joint & Leaf",
     artist: "Alex K.", 
     frameStyle: "warm-wood",
@@ -52,7 +52,7 @@ const mockArtworks = [
   },
   {
     id: 7,
-    image: "/public/assets/rasta-bart-stoner-wall-art.webp",
+    image: "/assets/rasta-bart-stoner-wall-art.webp",
     title: "Cosmic Mushroom Sage",
     artist: "Maya S.",
     frameStyle: "warm-wood",
@@ -60,7 +60,7 @@ const mockArtworks = [
   },
   {
     id: 8,
-    image: "/public/assets/il_fullxfull.2820111067_n983.webp",
+    image: "/assets/il_fullxfull.2820111067_n983.webp",
     title: "Rasta Spirit",
     artist: "Jasper M.",
     frameStyle: "modern-clean",

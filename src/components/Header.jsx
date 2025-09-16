@@ -16,7 +16,7 @@ const Header = () => {
       <div className="flex items-center gap-4 text-white">
         <div className="h-14 w-auto text-[var(--primary-color)]">
           <img 
-            src="/public/assets/LOGO ARVORE APENAS.svg" 
+            src="/assets/LOGO ARVORE APENAS.svg" 
             alt="Township Community Logo"
             className="h-full w-auto"
           />
