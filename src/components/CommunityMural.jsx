@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import ImagePreview from './ImagePreview';
+import { ASSETS } from '../utils/assets';
 
 const mockArtworks = [
   {
     id: 1,
-    image: "/assets/istockphoto-1391364518-612x612.jpg",
+    image: ASSETS.ARTWORK.SMOKE_DREAMS,
     title: "Smoke Dreams",
     artist: "Sarah M.",
     frameStyle: "modern-clean",
@@ -12,7 +13,7 @@ const mockArtworks = [
   },
   {
     id: 2,
-    image: "/assets/images.jpeg",
+    image: ASSETS.ARTWORK.DOODLE_VISION,
     title: "Doodle Vision", 
     artist: "Mike R.",
     frameStyle: "warm-wood",
@@ -20,7 +21,7 @@ const mockArtworks = [
   },
   {
     id: 3,
-    image: "/assets/Logo.png",
+    image: ASSETS.ARTWORK.TOWNSHIP_LOGO,
     title: "Township Community Logo",
     artist: "Township Design Team",
     frameStyle: "modern-clean", 
@@ -28,7 +29,7 @@ const mockArtworks = [
   },
   {
     id: 4,
-    image: "/assets/fciar2zeyhe31.png",
+    image: ASSETS.ARTWORK.CANNABIS_SPIRIT,
     title: "Cannabis Spirit",
     artist: "Zen D.",
     frameStyle: "warm-wood",
@@ -36,7 +37,7 @@ const mockArtworks = [
   },
   {
     id: 5,
-    image: "/assets/ed3679e4aa35e0b09fc81f31a60f78a4.jpg",
+    image: ASSETS.ARTWORK.MUSHROOM_SUNSHINE,
     title: "Mushroom Sunshine", 
     artist: "River T.",
     frameStyle: "modern-clean",
@@ -44,7 +45,7 @@ const mockArtworks = [
   },
   {
     id: 6,
-    image: "/assets/blunt-weed-cannabis-medical-marijuana-pot-stone-high-life-smoker-drug-420-mary-jane-T0B89R.jpg",
+    image: ASSETS.ARTWORK.JOINT_LEAF,
     title: "Joint & Leaf",
     artist: "Alex K.", 
     frameStyle: "warm-wood",
@@ -52,7 +53,7 @@ const mockArtworks = [
   },
   {
     id: 7,
-    image: "/assets/rasta-bart-stoner-wall-art.webp",
+    image: ASSETS.ARTWORK.COSMIC_SAGE,
     title: "Cosmic Mushroom Sage",
     artist: "Maya S.",
     frameStyle: "warm-wood",
@@ -60,7 +61,7 @@ const mockArtworks = [
   },
   {
     id: 8,
-    image: "/assets/il_fullxfull.2820111067_n983.webp",
+    image: ASSETS.ARTWORK.RASTA_SPIRIT,
     title: "Rasta Spirit",
     artist: "Jasper M.",
     frameStyle: "modern-clean",

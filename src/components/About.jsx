@@ -1,3 +1,5 @@
+import { ASSETS } from '../utils/assets';
+
 const About = () => {
   return (
     <section className="py-20 px-10 bg-gray-50" id="about">
@@ -57,7 +59,7 @@ const About = () => {
           
           <div className="relative">
             <img 
-              src="/assets/music-party-gathering-stockcake.jpg" 
+              src={ASSETS.HERO_BG} 
               alt="Modern green lounge with comfortable seating for Township Community creative sessions" 
               className="w-full h-[500px] object-cover rounded-lg shadow-lg"
             />

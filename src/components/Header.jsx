@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ASSETS } from '../utils/assets';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ const Header = () => {
       <div className="flex items-center gap-4 text-white">
         <div className="h-14 w-auto text-[var(--primary-color)]">
           <img 
-            src="/assets/LOGO ARVORE APENAS.svg" 
+            src={ASSETS.LOGO} 
             alt="Township Community Logo"
             className="h-full w-auto"
           />
